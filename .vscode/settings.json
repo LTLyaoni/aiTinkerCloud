@@ -1,0 +1,17 @@
+{
+    "yaoni.portWin": "COM5",
+    "files.associations": {
+        "aiio_os_port.h": "c",
+        "stdint.h": "c",
+        "aiio_wan_service.h": "c",
+        "device.h": "c",
+        "rfparam_adapter.h": "c",
+        "aipi_cloud.h": "c",
+        "aiio_dev_config.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "easyflash.h": "c",
+        "cstdint": "c",
+        "cmath": "c"
+    }
+}
