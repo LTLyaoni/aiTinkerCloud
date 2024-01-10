@@ -28,13 +28,13 @@
 // #define DEVICE_USER_NAME "1nljlu"
 // #define DEVICE_PASSWD "UyqoxMou0w0Zxq"
 //============================ 空净物模型数据定义 ==================================================
-//开关(可下发可上报 rw)
-//备注:布尔值（Bool）
-#define CMD_SWALL             1
-//档位设定(可下发可上报 rw)
-//备注:枚举值（Enum）
-#define CMD_SW2              4
-#define CMD_SW3              5
-#define CMD_SW1              101
+// //开关(可下发可上报 rw)
+// //备注:布尔值（Bool）
+// #define CMD_SWALL             1
+// //档位设定(可下发可上报 rw)
+// //备注:枚举值（Enum）
+// #define CMD_SW2              4
+// #define CMD_SW3              5
+// #define CMD_SW1              101
 
 #endif

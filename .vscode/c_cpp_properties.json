@@ -2,27 +2,27 @@
     "configurations": [
         {
             "name": "Win32",
+            "compilerPathInCppPropertiesJson": "D:\\Application\\mingw64\\bin\\gcc.exe",
             "includePath": [
-                "${config:AiPi.SDK.PATH}/**",
-                "${config:AiPi.SDK.PATH}/components/**",
-                "${workspaceFolder}/**"
+                "d:/Documents/aiTinkerCloud/**",
+                "D:/Documents/bouffalo_sdk/components/utils/cjson"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "mergeConfigurations": false,
+            "compilerPath": "D:\\Application\\mingw64\\bin\\gcc.exe",
             "browse": {
                 "path": [
-                    "${config:AiPi.SDK.PATH}/**",
-                    "${config:AiPi.SDK.PATH}/components",
-                    "${config:AiPi.SDK.PATH}/components/**",
-                    "${workspaceFolder}/**"
-                    "${workspaceFolder}"
+                    "d:/Documents/aiTinkerCloud"
                 ],
-                "limitSymbolsToIncludedHeaders": false
-            },
-            "configurationProvider": "ms-vscode.makefile-tools"
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ],
     "version": 4

@@ -12,6 +12,7 @@
         "task.h": "c",
         "easyflash.h": "c",
         "cstdint": "c",
-        "cmath": "c"
+        "cmath": "c",
+        "aiio_cjson.h": "c"
     }
 }

@@ -79,6 +79,9 @@ void cloud_control_cb(char *pid, char *valuestring, double valuedouble)
     default:
         break;
     }
+
+    // 得上传状态改变
+    // aiio_service_report_attribute(msgMid, from, json_str);
 }
 
 void board_pwm_led_init()
